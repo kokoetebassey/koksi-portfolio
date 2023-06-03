@@ -43,10 +43,10 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-35 h-35 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          {/* <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             | Personal portfolio
-            {/* <span className='sm:block hidden'> | Personal portfolio</span> */}
-          </p>
+            <span className='sm:block hidden'> | Personal portfolio</span>
+          </p> */}
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
