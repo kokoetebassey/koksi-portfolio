@@ -32,14 +32,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-// email
-// 
 
-// gmail
-// 
-
-// public key
-// 
     emailjs
       .send(
         'service_5miblhr',

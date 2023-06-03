@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-35 h-35 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Koksibillz &nbsp;
-            <span className='sm:block hidden'> | Personal portfolio</span>
+            | Personal portfolio
+            {/* <span className='sm:block hidden'> | Personal portfolio</span> */}
           </p>
         </Link>
 
